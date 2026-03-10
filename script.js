@@ -22,7 +22,8 @@ function generate() {
     for (let i = 0; i < text.length; i++) {
         seed += text.charCodeAt(i) * (i + 1); 
     }
-
+ 
+    seed += Date.now();
     let result = "";
 
     for (let i = 0; i < count; i++) {
