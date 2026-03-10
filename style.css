@@ -84,7 +84,7 @@ h2 {
 }
 
 #infoBox {
-  
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
